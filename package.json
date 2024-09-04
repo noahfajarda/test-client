@@ -1,0 +1,37 @@
+{
+  "name": "sam-client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node dev-server.ts",
+    "build": "next build",
+    "start": "node server-prod.ts",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@internationalized/date": "^3.5.5",
+    "@nextui-org/react": "^2.4.6",
+    "child_process": "^1.0.2",
+    "dotenv": "^16.4.5",
+    "framer-motion": "^11.3.19",
+    "jose": "^5.6.3",
+    "next": "^14.2.5",
+    "path": "^0.12.7",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hot-toast": "^2.4.1",
+    "react-number-format": "^5.4.0",
+    "styled-components": "^6.1.12",
+    "zustand": "^4.5.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
